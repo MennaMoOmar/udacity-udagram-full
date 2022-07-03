@@ -35,20 +35,20 @@ aws s3api create-bucket --bucket menna-omar-bucket --region us-east-1
 - eb create --sample udagram-api-dev
 
 ## Run Application
-# install frontend
+### install frontend
 - $ npm run frontend:install
-# install backend
+### install backend
 - $ npm run backend:install
-# build frontend
+### build frontend
 - $ npm run frontend:build
-# build backend
+### build backend
 - $ npm run backend:build
-# test frontend
+### test frontend
 - $ npm run frontend:test
-# test backend
+### test backend
 - $ npm run backend:test
-# deploy frontend
-# deploy backend
+### deploy frontend
+### deploy backend
 - $ npm run backend:deploy
 
 ## Git links
