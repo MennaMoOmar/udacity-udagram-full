@@ -1,0 +1,13 @@
+### Pipeline process
+1. push code in github
+2. login in circleci
+3. set env in circleci
+4. set branch which deploy changes in app
+5. once you push in specific branch changes will be deployed
+
+### Process includes:
+1. Source
+2. Destination
+3. Transformation
+4. Processing
+5. Workflow

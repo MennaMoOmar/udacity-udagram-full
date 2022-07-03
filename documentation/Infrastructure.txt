@@ -1,0 +1,5 @@
+### What services (from AWS) your project needs to run?
+- RDS
+- S3
+- Elastic Beanstalk
+- CircleCI

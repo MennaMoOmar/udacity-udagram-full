@@ -1,0 +1,5 @@
+### What modules are your app depending on?
+- Node.js
+- postgres
+- aws
+- npm

@@ -58,6 +58,30 @@ aws s3api create-bucket --bucket menna-omar-bucket --region us-east-1
 ### Pipeline Diagram
 ![images](./documentation/images/pipeline%20Diagram.png)
 
+### What services (from AWS) your project needs to run?
+- RDS
+- S3
+- Elastic Beanstalk
+- CircleCI
+![images](./documentation/images/Infrastructure.png)
+
+
+### What modules are your app depending on?
+- Node.js
+- postgres
+- aws
+- npm
+
+
+### Pipeline process
+1. push code in github
+2. login in circleci
+3. set env in circleci
+4. set branch which deploy changes in app
+5. once you push in specific branch changes will be deployed
+![images](./documentation/images/Pipeline%20process_.png)
+
+
 ## Git links
 
 - Client => https://github.com/MennaMoOmar/udacity-udagram-frontend
