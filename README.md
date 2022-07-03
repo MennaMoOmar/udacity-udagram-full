@@ -6,7 +6,6 @@
 
 
 ## Create Bucket
-- Create Bucket
 aws s3api create-bucket --bucket menna-omar-bucket --region us-east-1
 
 
@@ -16,48 +15,44 @@ aws s3api create-bucket --bucket menna-omar-bucket --region us-east-1
 - Configure the aws cli user with your terminal via `aws configure`
 
 ## CIRCLE/CI Environments
-- Environments
-AWS_BUCKET=$AWS_BUCKET
-AWS_REGION=$AWS_REGION
-DB_PORT=$DB_PORT
-JWT_SECRET=$JWT_SECRET
-PORT=$PORT
-POSTGRES_DB=$POSTGRES_DB
-POSTGRES_HOST=$POSTGRES_HOST
-POSTGRES_PASSWORD=$POSTGRES_PASSWORD
-POSTGRES_USERNAME=$POSTGRES_USERNAME
-URL=$URL
+- AWS_BUCKET=$AWS_BUCKET
+- AWS_REGION=$AWS_REGION
+- DB_PORT=$DB_PORT
+- JWT_SECRET=$JWT_SECRET
+- PORT=$PORT
+- POSTGRES_DB=$POSTGRES_DB
+- POSTGRES_HOST=$POSTGRES_HOST
+- POSTGRES_PASSWORD=$POSTGRES_PASSWORD
+- POSTGRES_USERNAME=$POSTGRES_USERNAME
+- URL=$URL
 
 ## Project needs to run such as RDS, elasticbeanstalk and s3
 
 - Init Elastic Beanstalk
-eb init udagram-api --platform node.js --region us-east-1
+- eb init udagram-api --platform node.js --region us-east-1
 
 - Create Sample
-eb create --sample udagram-api-dev
+- eb create --sample udagram-api-dev
 
 ## Run Application
-- Run Application
-install frontend
-$ npm run frontend:install
-install backend
-$ npm run backend:install
-build frontend
-$ npm run frontend:build
-build backend
-$ npm run backend:build
-test frontend
-$ npm run frontend:test
-test backend
-$ npm run backend:test
-deploy frontend
-$ npm run frontend:deploy
-deploy backend
-$ npm run backend:deploy
+# install frontend
+- $ npm run frontend:install
+# install backend
+- $ npm run backend:install
+# build frontend
+- $ npm run frontend:build
+# build backend
+- $ npm run backend:build
+# test frontend
+- $ npm run frontend:test
+# test backend
+- $ npm run backend:test
+# deploy frontend
+# deploy backend
+- $ npm run backend:deploy
 
 ## Git links
 
-- Github Links
 - Client => https://github.com/MennaMoOmar/udacity-udagram-frontend
 - API => https://github.com/MennaMoOmar/udacity-udagram-api
 - Full Version => https://github.com/MennaMoOmar/udacity-udagram-full
