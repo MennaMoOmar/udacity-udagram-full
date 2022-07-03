@@ -51,6 +51,13 @@ aws s3api create-bucket --bucket menna-omar-bucket --region us-east-1
 ### deploy backend
 - $ npm run backend:deploy
 
+## Diagrams
+### Infrastructure Diagram
+![images](./documentation/images/Infrastructure%20Diagram.png)
+
+### Pipeline Diagram
+![images](./documentation/images/pipeline%20Diagram.png)
+
 ## Git links
 
 - Client => https://github.com/MennaMoOmar/udacity-udagram-frontend
