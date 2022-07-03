@@ -65,3 +65,5 @@ aws s3api create-bucket --bucket menna-omar-bucket --region us-east-1
 ![images](./documentation/images/elastic.png)
 ![images](./documentation/images/deployed-frontend.png)
 ![images](./documentation/images/deployed-api.png)
+![images](./documentation/images/circleci.png)
+![images](./documentation/images/circleci2.png)
